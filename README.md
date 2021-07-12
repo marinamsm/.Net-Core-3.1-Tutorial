@@ -17,20 +17,20 @@ Run `dotnet build` and `dotnet run` to install all the dependencies and run the 
 
 The following endpoints can be tested with this server:
 
-To list transactions:
+To list commands:
     GET http://localhost:5000/api/commands
 
-To get a transaction:
+To get a command:
     GET http://localhost:5000/api/commands/{id}
 
-To create a transaction:
+To create a command:
     POST http://localhost:5000/api/commands
     
-To update a transaction:
+To update a command:
     PUT http://localhost:5000/api/commands/{id}
     
-To partially update a transaction:
+To partially update a command:
     PATCH http://localhost:5000/api/commands/{id}
     
-To delete a transaction:
+To delete a command:
     DELETE http://localhost:5000/api/commands/{id}
